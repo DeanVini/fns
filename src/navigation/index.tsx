@@ -26,7 +26,7 @@ export default function RootStack() {
               <View className={styles.backButton}>
                 <Feather name="chevron-left" size={16} color="#007AFF" />
                 <Text className={styles.backButtonText} onPress={navigation.goBack}>
-                  Back
+                  Voltar
                 </Text>
               </View>
             ),
